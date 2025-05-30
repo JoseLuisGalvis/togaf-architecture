@@ -11,7 +11,7 @@ function Home() {
       {/* Imagen lado izquierdo */}
       <div className="col-md-6 text-center mb-4 mb-md-0" data-aos="fade-right">
         <img
-          src="/src/assets/juniors.png" // Cambia por la ruta de tu imagen
+          src="../assets/juniors.png" // Cambia por la ruta de tu imagen
           alt="Enterprise Architecture"
           className="img-fluid rounded shadow"
           style={{ maxHeight: "400px", objectFit: "cover" }}
