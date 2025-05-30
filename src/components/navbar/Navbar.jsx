@@ -21,7 +21,7 @@ const Navbar = ({ onNavigate, currentView }) => {
       <div className="container">
         <a className="navbar-brand fw-bold" href="#home">
           <img
-            src="/public/logo.png"
+            src="/togaf-architecture/logo.png"
             alt="Logo"
             width="40"
             height="40"
