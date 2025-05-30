@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import ThemeContext from "../contexts/ThemeContext";
+import juniors from "../assets/juniors.png";
 
 function Home() {
   const { t } = useTranslation();
@@ -11,8 +12,8 @@ function Home() {
       {/* Imagen lado izquierdo */}
       <div className="col-md-6 text-center mb-4 mb-md-0" data-aos="fade-right">
         <img
-          src="../assets/juniors.png" // Cambia por la ruta de tu imagen
-          alt="Enterprise Architecture"
+          src={juniors}
+          alt="Juniors" // Cambia por la ruta de tu imagen
           className="img-fluid rounded shadow"
           style={{ maxHeight: "400px", objectFit: "cover" }}
         />
