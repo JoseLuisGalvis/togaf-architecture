@@ -1,0 +1,140 @@
+{
+  "app": {
+    "titulo": "Bienvenido a la Guía TOGAF"
+  },
+  "navbar": {
+    "titulo": "Guía TOGAF",
+    "inicio": "Inicio",
+    "ae": "AE",
+    "arquitectura": "Arquitectura",
+    "estilos": "Estilos",
+    "patrones": "Patrones",
+    "patronesDiseno": "Patrones de Diseño",
+    "principios": "Principios",
+    "solid": "SOLID",
+    "dry": "DRY",
+    "kiss": "KISS",
+    "yagni": "YAGNI",
+    "demeter": "Demeter",
+    "boyScout": "Boy Scout Rule",
+    "mejoresPracticas": "Mejores Prácticas"
+  },
+  "home": {
+    "title": "Arquitectura Empresarial",
+    "subtitle": "Transformando organizaciones a través del diseño estratégico y la innovación tecnológica",
+    "description": "Descubre cómo la Arquitectura Empresarial puede optimizar tus procesos, alinear la tecnología con los objetivos de negocio y crear valor sostenible para tu organización."
+  },
+  "sections": {
+    "arquitecturaEmpresarial": {
+      "titulo": "¿Qué es la Arquitectura Empresarial?",
+      "definicion": "Según TOGAF, la Arquitectura Empresarial es una descripción formal de un sistema, o un plan detallado del sistema a nivel de componentes para guiar su implementación. Es la estructura de los componentes de una organización, sus interrelaciones y los principios y directrices que rigen su diseño y evolución a lo largo del tiempo.",
+      "dominios": "Dominios de la Arquitectura Empresarial",
+      "listaDominios": [
+        "Arquitectura de Negocio",
+        "Arquitectura de Aplicaciones",
+        "Arquitectura de Datos",
+        "Arquitectura Tecnológica"
+      ]
+    },
+    "proposito": {
+      "titulo": "Propósito de la Arquitectura Empresarial",
+      "puntos": [
+        "Alinear TI con los objetivos de negocio: Asegura que las inversiones y capacidades de TI soporten directamente las metas y estrategias de la organización.",
+        "Mejorar la toma de decisiones: Proporciona una visión holística de la organización, permitiendo decisiones más informadas.",
+        "Optimizar recursos y reducir costos: Estandariza procesos, reduce duplicaciones y minimiza gastos innecesarios.",
+        "Gestionar el cambio de manera efectiva: Ofrece un enfoque estructurado para manejar cambios en tecnología y procesos.",
+        "Facilitar la comunicación y colaboración: Establece un lenguaje común para los interesados en TI.",
+        "Mitigar riesgos: Reduce la probabilidad de fallos en proyectos de TI y problemas de seguridad.",
+        "Impulsar la innovación: Identifica áreas donde la tecnología puede mejorar procesos de negocio."
+      ]
+    },
+    "componentes": {
+      "titulo": "Componentes de TOGAF",
+      "puntos": [
+        "Método de Desarrollo de Arquitectura (ADM): Metodología cíclica que guía a los arquitectos en el desarrollo y mantenimiento de la Arquitectura Empresarial.",
+        "Continuo Empresarial: Método para clasificar artefactos y soluciones de arquitectura.",
+        "Marco de Contenido de Arquitectura: Define entregables, artefactos y bloques de construcción arquitectónicos.",
+        "Marco de Capacidad de Arquitectura: Define parámetros y procesos para la gobernanza del repositorio de arquitectura.",
+        "Repositorio de Arquitectura: Repositorio lógico que contiene información y conocimiento de arquitectura."
+      ]
+    },
+    "fasesADM": {
+      "titulo": "Fases del ADM",
+      "nombre": "Nombre",
+      "proposito": "Propósito",
+      "uso": "Uso",
+      "puntos": [
+        {
+          "nombre": "Fase Preliminar: Marco y Principios",
+          "proposito": "Establecer la capacidad de arquitectura de la organización. Define 'dónde, qué, por qué, quién y cómo hacemos arquitectura'.",
+          "uso": "Define principios arquitectónicos, alcance, establece el equipo de arquitectura y personaliza TOGAF."
+        },
+        {
+          "nombre": "Fase A: Visión de Arquitectura",
+          "proposito": "Desarrollar una visión de alto nivel de las capacidades de negocio y el valor a entregar.",
+          "uso": "Identifica interesados, sus preocupaciones y requisitos de negocio. Define el alcance y obtiene aprobación."
+        },
+        {
+          "nombre": "Fase B: Arquitectura de Negocio",
+          "proposito": "Desarrollar la Arquitectura de Negocio detallada para la línea base y el estado objetivo.",
+          "uso": "Modela procesos de negocio, estructura organizacional, funciones y roles."
+        },
+        {
+          "nombre": "Fase C: Arquitecturas de Sistemas de Información",
+          "proposito": "Desarrollar Arquitecturas de Datos y Aplicaciones detalladas para la línea base y el estado objetivo.",
+          "uso": "Define modelos de datos, gestión de datos, flujos de información y sistemas clave."
+        },
+        {
+          "nombre": "Fase D: Arquitectura Tecnológica",
+          "proposito": "Desarrollar la Arquitectura Tecnológica detallada para la línea base y el estado objetivo.",
+          "uso": "Define la infraestructura de hardware, software, redes y estándares tecnológicos."
+        },
+        {
+          "nombre": "Fase E: Oportunidades y Soluciones",
+          "proposito": "Identificar oportunidades de transformación y soluciones candidatas para pasar al estado objetivo.",
+          "uso": "Evalúa brechas, identifica dependencias y desarrolla soluciones de alto nivel."
+        },
+        {
+          "nombre": "Fase F: Planificación de la Migración",
+          "proposito": "Crear un plan de migración detallado para implementar la arquitectura objetivo.",
+          "uso": "Define una hoja de ruta, prioriza proyectos, estima costos y gestiona riesgos."
+        },
+        {
+          "nombre": "Fase G: Gobernanza de la Implementación",
+          "proposito": "Asegurar la conformidad de la implementación con la arquitectura definida.",
+          "uso": "Supervisa la implementación, gestiona contratos y asegura la adherencia a principios arquitectónicos."
+        },
+        {
+          "nombre": "Fase H: Gestión del Cambio de la Arquitectura",
+          "proposito": "Establecer procesos para monitorear y gestionar cambios en la arquitectura.",
+          "uso": "Asegura que la arquitectura permanezca relevante y alineada con los cambios en el negocio y la tecnología."
+        }
+      ]
+    }
+  },
+  "pages": {
+    "enConstruccion": "En Construcción",
+    "contenidoProximamente": "Contenido próximamente..."
+  },
+  "footer": {
+    "sobre": {
+      "titulo": "Sobre Nosotros",
+      "contenido": "Proporcionamos información y orientación sobre Arquitectura Empresarial utilizando TOGAF."
+    },
+    "enlaces": {
+      "titulo": "Enlaces Rápidos",
+      "inicio": "¿Qué es la Arquitectura Empresarial?",
+      "acerca": "Componentes de TOGAF",
+      "contacto": "Fases del ADM"
+    },
+    "contacto": {
+      "titulo": "Contáctanos",
+      "correo": "Correo",
+      "telefono": "Teléfono"
+    },
+    "mapa": {
+      "titulo": "Nuestra Ubicación"
+    },
+    "derechos": "Todos los derechos reservados."
+  }
+}

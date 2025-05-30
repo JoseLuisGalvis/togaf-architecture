@@ -1,0 +1,140 @@
+{
+  "app": {
+    "titulo": "Welcome to the TOGAF Guide"
+  },
+  "navbar": {
+    "titulo": "TOGAF Guide",
+    "inicio": "Home",
+    "ae": "EA",
+    "arquitectura": "Architecture",
+    "estilos": "Styles",
+    "patrones": "Patterns",
+    "patronesDiseno": "Design Patterns",
+    "principios": "Principles",
+    "solid": "SOLID",
+    "dry": "DRY",
+    "kiss": "KISS",
+    "yagni": "YAGNI",
+    "demeter": "Demeter",
+    "boyScout": "Boy Scout Rule",
+    "mejoresPracticas": "Best Practices"
+  },
+  "home": {
+    "title": "Enterprise Architecture",
+    "subtitle": "Transforming organizations through strategic design and technological innovation",
+    "description": "Discover how Enterprise Architecture can optimize your processes, align technology with business objectives, and create sustainable value for your organization."
+  },
+  "sections": {
+    "arquitecturaEmpresarial": {
+      "titulo": "What is Enterprise Architecture?",
+      "definicion": "According to TOGAF, Enterprise Architecture is a formal description of a system, or a detailed plan of the system at the component level to guide its implementation. It is the structure of the components of an organization, their interrelationships, and the principles and guidelines that govern its design and evolution over time.",
+      "dominios": "Domains of Enterprise Architecture",
+      "listaDominios": [
+        "Business Architecture",
+        "Application Architecture",
+        "Data Architecture",
+        "Technology Architecture"
+      ]
+    },
+    "proposito": {
+      "titulo": "Purpose of Enterprise Architecture",
+      "puntos": [
+        "Align IT with business objectives: Ensures that IT investments and capabilities directly support the organization's goals and strategies.",
+        "Improve decision-making: Provides a holistic view of the organization, enabling more informed decisions.",
+        "Optimize resources and reduce costs: Standardizes processes, reduces duplication, and minimizes unnecessary expenses.",
+        "Manage change effectively: Offers a structured approach to handling changes in technology and processes.",
+        "Facilitate communication and collaboration: Establishes a common language for IT stakeholders.",
+        "Mitigate risks: Reduces the likelihood of IT project failures and security issues.",
+        "Drive innovation: Identifies areas where technology can improve business processes."
+      ]
+    },
+    "componentes": {
+      "titulo": "TOGAF Components",
+      "puntos": [
+        "Architecture Development Method (ADM): A cyclical methodology that guides architects in the development and maintenance of Enterprise Architecture.",
+        "Enterprise Continuum: A method for classifying architecture artifacts and solutions.",
+        "Architecture Content Framework: Defines deliverables, artifacts, and architectural building blocks.",
+        "Architecture Capability Framework: Defines parameters and processes for governing the architecture repository.",
+        "Architecture Repository: A logical repository that contains architecture information and knowledge."
+      ]
+    },
+    "fasesADM": {
+      "titulo": "ADM Phases",
+      "nombre": "Name",
+      "proposito": "Purpose",
+      "uso": "Use",
+      "puntos": [
+        {
+          "nombre": "Preliminary Phase: Framework and Principles",
+          "proposito": "Establish the organization's architecture capability. Defines 'where, what, why, who, and how we do architecture'.",
+          "uso": "Defines architectural principles, scope, establishes the architecture team, and customizes TOGAF."
+        },
+        {
+          "nombre": "Phase A: Architecture Vision",
+          "proposito": "Develop a high-level vision of business capabilities and the value to be delivered.",
+          "uso": "Identifies stakeholders, their concerns, and business requirements. Defines the scope and obtains approval."
+        },
+        {
+          "nombre": "Phase B: Business Architecture",
+          "proposito": "Develop the detailed Business Architecture for the baseline and target state.",
+          "uso": "Models business processes, organizational structure, functions, and roles."
+        },
+        {
+          "nombre": "Phase C: Information Systems Architectures",
+          "proposito": "Develop detailed Data and Application Architectures for the baseline and target state.",
+          "uso": "Defines data models, data management, information flows, and key systems."
+        },
+        {
+          "nombre": "Phase D: Technology Architecture",
+          "proposito": "Develop the detailed Technology Architecture for the baseline and target state.",
+          "uso": "Defines hardware infrastructure, software, networks, and technology standards."
+        },
+        {
+          "nombre": "Phase E: Opportunities and Solutions",
+          "proposito": "Identify transformation opportunities and candidate solutions to reach the target state.",
+          "uso": "Evaluates gaps, identifies dependencies, and develops high-level solutions."
+        },
+        {
+          "nombre": "Phase F: Migration Planning",
+          "proposito": "Create a detailed migration plan to implement the target architecture.",
+          "uso": "Defines a roadmap, prioritizes projects, estimates costs, and manages risks."
+        },
+        {
+          "nombre": "Phase G: Implementation Governance",
+          "proposito": "Ensure compliance of the implementation with the defined architecture.",
+          "uso": "Oversees implementation, manages contracts, and ensures adherence to architectural principles."
+        },
+        {
+          "nombre": "Phase H: Architecture Change Management",
+          "proposito": "Establish processes to monitor and manage changes in the architecture.",
+          "uso": "Ensures that the architecture remains relevant and aligned with changes in business and technology."
+        }
+      ]
+    }
+  },
+  "pages": {
+    "enConstruccion": "Under Construction",
+    "contenidoProximamente": "Content coming soon..."
+  },
+  "footer": {
+    "sobre": {
+      "titulo": "About Us",
+      "contenido": "We provide information and guidance on Enterprise Architecture using TOGAF."
+    },
+    "enlaces": {
+      "titulo": "Quick Links",
+      "inicio": "What is Enterprise Architecture?",
+      "acerca": "TOGAF Components",
+      "contacto": "ADM Phases"
+    },
+    "contacto": {
+      "titulo": "Contact Us",
+      "correo": "Email",
+      "telefono": "Phone"
+    },
+    "mapa": {
+      "titulo": "Our Location"
+    },
+    "derechos": "All rights reserved."
+  }
+}

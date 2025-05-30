@@ -1,0 +1,76 @@
+:root {
+  --azul-oscuro: #1e3a8a;
+  --azul-medio: #3b82f6;
+  --aguamarina: #22d3ee;
+  --blanco: #f5f5f5;
+  --gris-oscuro: #494b4e;
+  --gris-medio: #62656b;
+  --azul-claro: #60a5fa;
+}
+
+/* Estilos base del body */
+body.light {
+  background-color: var(--blanco);
+  color: var(--azul-oscuro);
+}
+
+body.dark {
+  background-color: var(--gris-oscuro);
+  color: var(--blanco);
+}
+
+/* Estilos para elementos de texto en modo oscuro */
+body.dark p,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark li {
+  color: var(--blanco);
+}
+
+/* Estilos para section-container */
+.section-container {
+  background: linear-gradient(to right, var(--blanco), var(--aguamarina));
+}
+
+/* Corregir el selector para modo oscuro */
+body.dark .section-container {
+  background: var(--gris-medio) !important;
+}
+
+/* Estilos para list-group en modo oscuro */
+body.dark .list-group-item {
+  background-color: var(--gris-medio) !important;
+  color: var(--blanco);
+  border-color: var(--azul-claro);
+}
+
+.list-group-dark .list-group-item {
+  background-color: var(--gris-medio);
+  color: var(--blanco);
+  border-color: var(--azul-claro);
+}
+
+/* Resto de estilos */
+.bg-primary {
+  background-color: var(--azul-oscuro) !important;
+}
+
+.navbar-light .nav-link:hover,
+.navbar-dark .nav-link:hover {
+  color: var(--aguamarina);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler {
+  color: var(--blanco) !important;
+}
